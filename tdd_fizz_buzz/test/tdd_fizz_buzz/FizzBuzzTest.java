@@ -12,6 +12,10 @@ public class FizzBuzzTest {
 		Assertions.assertEquals("2", fb.converte(2));		
 	}
 	
-
+	@Test
+	public void testMultiplosDeTres() {
+		FizzBuzz fb = new FizzBuzz();
+		Assertions.assertEquals("Fizz", fb.converte(3));
+	}
 
 }
