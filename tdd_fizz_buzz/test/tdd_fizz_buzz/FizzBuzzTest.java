@@ -19,15 +19,17 @@ public class FizzBuzzTest {
 	}
 	
 	@Test
-	public void testMultiposDe5() {
+	public void testMultiplosDe5() {
 		FizzBuzz fb = new FizzBuzz();
 		Assertions.assertEquals("Buzz", fb.converte(5));		
 	}
 	
 	@Test
-	public void testMultiploDe3e5() {
+	public void testMultiplosDe3e5() {
 		FizzBuzz fb = new FizzBuzz();
-		Assertions.assertEquals("FizzBuzz", fb.converte(15));		
+		Assertions.assertEquals("FizzBuzz", fb.converte(15));
+		Assertions.assertEquals("FizzBuzz", fb.converte(30));
 	}
+
 
 }
